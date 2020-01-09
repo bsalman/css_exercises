@@ -1,0 +1,63 @@
+.maienDiv{
+    /* border: black solid 1px; */
+    height: 50vh;
+
+    margin:auto ;
+    padding:50px;
+}
+.somDiv{
+    box-shadow: rgba(0, 0, 0, 0.308) 5px 5px 5px;
+     ;margin: 40px;
+     height: 500px;
+     
+}
+p{text-align: center;
+margin-bottom:40px ;font-size: large;}
+.back1{ 
+    height: 200px;
+    background-size: cover;
+    background-image: url(../image/nat-5.jpg);
+    background-color: rgba(255, 166, 0, 0.384);
+    background-color:transparent rgba(255, 166, 0, 0.685);
+clip-path: polygon(0 0,100% 0,100% 80%,0 100% );
+z-index: 1;
+}
+.posi1{margin-right: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: px;
+    color: white;
+     float: right; 
+    height: 40px;
+    background-color: rgba(255, 166, 0, 0.5);
+    text-align: center;
+font-size: x-large;
+position: relative;}
+.posi2{
+    margin-right: 6px;
+    clear: right;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: px;
+    color: white;
+     float: right; 
+    height: 40px;
+    background-color: rgba(255, 166, 0, 0.404);
+    text-align: center;
+font-size: x-large;
+position: relative;
+
+}
+/* .posi1 span:nth-child(1){}
+.posi1 span:nth-child(2){} */
+.someUl{
+    text-align: center;
+    margin-bottom: 20px;
+    list-style: none ;
+    
+
+}
+li{width: 300px;
+    border-bottom: gray solid 1px;
+ padding: 10px 40px 10px 40px ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: gray;
+}
+.posi1{z-index: 2;}
+.posi2{z-index:3 ;}
